@@ -1,0 +1,6 @@
+*.un~
+.script.js.swp
+*.swp
+script.js~
+*.html~
+style.css~

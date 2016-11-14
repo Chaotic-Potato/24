@@ -1,8 +1,31 @@
-<html>
+<html title="the color is a joke">
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<h1 id="head">24</h1>
 	</head>
 	<body>
-		<script src="script.js"></script>
+		<br><br><br>
+		<div id="display">
+			<text>Numbers to do stuff with - have fun</text><br>
+			<text id="nums"></text><br><br>
+			<input list="nums" name="numIn1" size="4">
+			<input list="ops" name="op1" size="4">
+			<input list="nums" name="numIn2"size="4">
+			<input list="ops" name="op2"size="4">
+			<input list="nums" name="numIn3"size="4">
+			<input list="ops" name="op3"size="4">
+			<input list="nums" name="numIn4"size="4">
+			<datalist id="ops">
+    				<option value=+>
+    				<option value=->
+				<option value=*>
+    				<option value=/>
+  			</datalist>
+			<div id="numListHolder">
+				
+			</div>
+  			<button id="submit" onclick="g.submit()">Submit</input>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,14 @@
+h1 {
+	font-size:32;
+	text-align:center;
+
+}
+body{
+	background-color:#c6d43d;
+}
+.hidden{
+	visibility:hidden;
+}
+html{
+	text-align:center;
+}
